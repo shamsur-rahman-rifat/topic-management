@@ -29,7 +29,7 @@ app.set('etag', false);
 
 
 // MongoDB connection
-const URI = 'mongodb://localhost:27017/TopicManager'; 
+const URI = 'mongodb+srv://rifat:1234@cluster0.jz0ux.mongodb.net/TopicManager'; 
 let OPTION={user:'',pass:'',autoIndex:true}
 
 mongoose.connect(URI, OPTION)
