@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Loader from '../loader/loader';
+import Loader from '../loader/Loader';
 import { Link } from 'react-router-dom';
 
 const HomePage = () => {
