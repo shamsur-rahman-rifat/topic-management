@@ -8,7 +8,6 @@ import hpp from 'hpp';
 import cors from 'cors';
 import cookieParser from "cookie-parser";
 import { fileURLToPath } from 'url';
-import path from 'path';
 
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
